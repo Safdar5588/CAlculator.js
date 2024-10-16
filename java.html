@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css file/java.css">
+
+    <title>Document</title>
+    
+</head>
+<body >
+    
+    <div class="main">
+
+        <h1 id="heading" class="last"> Codee Techs</h1>
+
+        <button id="but" ondblclick="green()" onmouseleave="remove()">Click Here</button>
+
+        <h2  class="sub-heading" onclick="para()" >Additional information</h2>
+    
+        <h2 onclick="main()">Additional information</h2>
+
+        <!-- <button onclick ="green()"  ondblclick="again()">simple</button>  -->
+
+    </div>
+
+
+    <form action="" id="sub" onsubmit="valid()">
+        NAME : <input type="text" id="name"> <input type="submit" value="submit">
+    </form>
+
+
+
+    <form action="" id="check" onsubmit="correct(event)">
+        Enter number : 
+        <input type="" id="input">
+        <!-- <button type="button" class="submit" onclick="correct()">Submit</button> -->
+         <input type="submit" value="submit">
+        <h1 class="ans"></h1>
+    </form>
+
+
+    <div class="counting">
+        <button id="counter">
+            Counter
+        </button>
+        <h1 class="show"></h1>
+        <button id="reset">Reset</button>
+    </div>
+
+
+    <!-- <div class="main">
+        <button class="red" onmouseenter="red()">red</button>
+        <button class="black" onmouseenter="black()">black</button>
+        <button class="yellow" onmouseenter="yellow()">yellow</button>
+        <button class="pink" onmouseenter="pink()">pink</button>
+        <button class="orange" onmouseenter="orange()">orange</button>
+        <button class="blue" onmouseenter="blue()">blue</button>
+        <button class="green" onmouseenter="green()">green</button>
+    </div> -->
+
+
+<div class="calulator">
+    <div class="countainer">
+        <div class="output">
+            <input type="text"  class="answer" readonly>
+            <button onclick="backspace()">X</button>
+        </div>
+        <div class="button">
+          <button onclick="appendToDisplay('7')">7</button>
+          <button onclick="appendToDisplay('8')">8</button>
+          <button onclick="appendToDisplay('9')">9</button>
+          <button onclick="appendToDisplay('+')">+</button>
+        </div>
+        <div class="button">
+           <button onclick="appendToDisplay('4')">4</button>
+           <button onclick="appendToDisplay('5')">5</button>
+           <button onclick="appendToDisplay('6')">6</button>
+           <button onclick="appendToDisplay('-')">-</button>
+        </div>
+        <div class="button">
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('*')">*</button>
+        </div>
+        <div class="button">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendToDisplay('/')">/</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+  
+<script src="javascript file/DOM.js"></script>
+
+</body>
+</html>
